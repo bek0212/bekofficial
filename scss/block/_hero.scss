@@ -1,0 +1,32 @@
+.hero__container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .hero__link{
+        font-size: 80px;
+        font-family: Arial;
+        flex-wrap: wrap;
+        color: white;
+        text-decoration-line: none;
+        font-family: 'Livvic';
+        font-weight: 800;
+        .hero__span{
+            color: #F67E7E;
+            flex-wrap: wrap;
+            font-weight: 900;
+
+        }
+
+    }
+    .hero__teks{
+        color: white;
+        font-size: 20px;
+        flex-wrap: wrap;
+
+    }
+
+}
